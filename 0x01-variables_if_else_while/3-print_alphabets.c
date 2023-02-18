@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main
  *
@@ -6,23 +7,14 @@
  */
 
 int main(void)
+
 {
-char c;
+	char c;
 
-char d;
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
+	putchar('\n');
+	return (0);
 
-c = 'a';
-d = 'A';
-while
-(c <= 'z') {
-putchar(c);
-c++;
 }
-while
-(d <= 'z') {
-putchar(c);
-d++;
-}
-putchar('\n');
-return (0);
-]
+
