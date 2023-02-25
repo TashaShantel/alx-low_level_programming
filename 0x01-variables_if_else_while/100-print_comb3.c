@@ -4,17 +4,23 @@
 
 /**
  * main - Entry point
- * Return: 0 (sucess)
+ * Return: 0 (success)
  */
 
 int main(void)
 
 {
+int d, p;
 
-	int d, p;
-
-	for (d = '0'; d < '9'; d++)
-	{
-	
-	for (p = d + 1; p <= '9'; p++);
-	{
+for (d = '0'; d <= '9'; d++)
+{
+putchar(d);
+for (p = d + 1; p <= '9'; p++)
+{
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+return (0);
+}
