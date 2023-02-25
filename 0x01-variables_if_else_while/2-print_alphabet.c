@@ -3,16 +3,19 @@
  * main - Entry point
  *
  * Description: 'the program prints the alphabet in lowercase'
- * Return; 0 (succes)
+ * Return: 0 (success)
  */
 
 int main(void)
+
 {
+
 char c;
 
 c = 'a';
 while
-(c  <= 'z') {
+(c  <= 'z')
+{
 putchar(c);
 c++;
 }
