@@ -12,12 +12,19 @@
 int main(void)
 
 {
-	char letter;
+	char letter, e, q;
+
+	e = 'e';
+	q = 'q';
 
 	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+
+	if (letter != e && letter != q)
+	{
 	putchar(letter);
-
-	for (letter = 'a'; letter <= 'z'; letter++)
+	}
+	}
 	putchar('\n');
 
 	return (0);
