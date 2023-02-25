@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - Entry point
+ * prints the alphabet in lowercase and then in uppercase
  *
- * Return; 0 (success)
+ * Return: 0 (success)
  */
 
 int main(void)
