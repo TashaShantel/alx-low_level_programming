@@ -12,10 +12,13 @@
 
 int main(void)
 {
-int n, lastd;
+int n;
+int lastd;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+/* your code goes there */
+
 lastd = n % 10;
 
 if (lastd > 5)
